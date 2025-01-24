@@ -3,7 +3,8 @@
 Contains 3 modules: 
 
 - api: contains interfaces & dtos
-- consumer: consumer application with 
+- consumer: consumer application
+- provider: provider application
 
 ## How it works
 
