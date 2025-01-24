@@ -17,30 +17,6 @@ import java.util.Map;
 @RequiredArgsConstructor
 @Slf4j
 public class CustomerController {
-    @Getter
-    @Setter
-    public static class Address {
-        private String street;
-        private String city;
-    }
-
-    @Getter
-    @Setter
-    public static class Child {
-        private int age;
-        private String name;
-    }
-
-    @Getter
-    @Setter
-    public static class Person {
-        private int age;
-        private String name;
-        private List<String> cars;
-        private Address address;
-        private List<Child> children;
-    }
-
     private final CustomerApi customerApi;
 
     @GetMapping("/customer")
